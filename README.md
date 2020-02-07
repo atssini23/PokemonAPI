@@ -1,2 +1,0 @@
-# PokemonAPI
-Created with CodeSandbox
