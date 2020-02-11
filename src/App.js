@@ -31,10 +31,10 @@ function App() {
   }, [currentPageUrl]);
 
   function gotoNextPage() {
-    setCurrentPageUrl(prevPageUrl);
+    setCurrentPageUrl(nextPageUrl);
   }
   function gotoPrevPage() {
-    setCurrentPageUrl(nextPageUrl);
+    setCurrentPageUrl(prevPageUrl);
   }
 
   if (loading) return "Loading...";
