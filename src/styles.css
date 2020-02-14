@@ -1,5 +1,32 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 250px 150px;
+  background-repeat: no-repeat;
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+body {
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+button {
+  background-color: rgb(236, 241, 236); /* Green */
+  border: none;
+  color: black;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
 }

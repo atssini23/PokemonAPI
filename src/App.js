@@ -40,7 +40,10 @@ function App() {
   if (loading) return "Loading...";
 
   return (
-    <div>
+    <div className="App">
+      <div>
+        <h2>PokemonList</h2>
+      </div>
       <PokemonList pokemon={pokemon} />
       <Pagination
         gotoNextPage={nextPageUrl ? gotoNextPage : null}
